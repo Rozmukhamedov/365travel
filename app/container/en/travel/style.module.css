@@ -1,0 +1,44 @@
+.travel .card svg {
+    font-size: 40px;
+    margin-right: 6px;
+    color: #02abf6;
+}
+
+.travel h3 {
+    font-size: 30px;
+    color: #0b1e33;
+}
+
+.travel .card h4 {
+    font-size: 22px;
+    color: #0b1e33;
+}
+
+.travel .card p {
+    color: #0b1e33;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .travel .card svg {
+        font-size: 40px;
+        margin-right: 6px;
+        color: #02abf6;
+    }
+
+    .travel h3 {
+        font-size: 20px;
+        color: #0b1e33;
+    }
+
+    .travel .card h4 {
+        font-size: 18px;
+        color: #0b1e33;
+    }
+
+    .travel .card p {
+        color: #0b1e33;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
