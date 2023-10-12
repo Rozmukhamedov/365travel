@@ -4,7 +4,7 @@ import React from "react";
 import classes from "./style.module.css";
 import { Container } from "@mantine/core";
 import Image from "next/image";
-import LogoImage from "@/app/assets/images/logo.jpg";
+import LogoImage from "@/app/assets/images/logo.png";
 import Link from "next/link";
 
 function Header() {
