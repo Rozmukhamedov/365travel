@@ -44,6 +44,17 @@
     line-height: 20px;
 }
 
+.tours button {
+    background-color: #ffae00;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 2px 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .tours {
         padding-top: 100px;

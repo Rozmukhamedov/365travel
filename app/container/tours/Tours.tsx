@@ -7,7 +7,7 @@ import Image1 from "@/app/assets/images/tours/vietnam.jpg";
 import Image2 from "@/app/assets/images/tours/egypt.jpg";
 import Image3 from "@/app/assets/images/tours/georgia.jpg";
 import Image4 from "@/app/assets/images/tours/maldives.jpg";
-import { Container, Grid } from "@mantine/core";
+import { Button, Container, Grid } from "@mantine/core";
 
 function Tours() {
   return (
@@ -22,9 +22,14 @@ function Tours() {
 
                 <h5>Вьетнам от $600 (80$/месяц)</h5>
                 <p>
-                  Вьетнам — богатая и уникальная культура, включающая в
-                  себя ценности, традиции и разнообразие.
+                  Вьетнам — богатая и уникальная культура, включающая в себя
+                  ценности, традиции и разнообразие.
                 </p>
+                <Button>
+                  <a href="https://payme.uz/fallback/merchant/?id=64d216bff9d1730016a3ac74">
+                    Бронировать
+                  </a>
+                </Button>
               </div>
             </Grid.Col>
             <Grid.Col span={12} sm={6} lg={6}>
@@ -32,9 +37,14 @@ function Tours() {
                 <Image src={Image2} alt="TripWise" />
                 <h5>Египет от $499 (66$/месяц)</h5>
                 <p>
-                  Египт — богатое историческое наследие с древними
-                  пирамидами, храмами и историческими памятниками.
+                  Египт — богатое историческое наследие с древними пирамидами,
+                  храмами и историческими памятниками.
                 </p>
+                <Button>
+                  <a href="https://payme.uz/fallback/merchant/?id=64d216bff9d1730016a3ac74">
+                    Бронировать
+                  </a>
+                </Button>
               </div>
             </Grid.Col>
             <Grid.Col span={12} sm={6} lg={6}>
@@ -42,8 +52,14 @@ function Tours() {
                 <Image src={Image3} alt="TripWise" />
                 <h5>Грузия от $440 (58$/месяц)</h5>
                 <p>
-                Грузии — её богатая и разнообразная природа, включая горные пейзажи, виноградники и чёрноморские пляжи.
+                  Грузии — её богатая и разнообразная природа, включая горные
+                  пейзажи, виноградники и чёрноморские пляжи.
                 </p>
+                <Button>
+                  <a href="https://payme.uz/fallback/merchant/?id=64d216bff9d1730016a3ac74">
+                    Бронировать
+                  </a>
+                </Button>
               </div>
             </Grid.Col>
             <Grid.Col span={12} sm={6} lg={6}>
@@ -54,6 +70,11 @@ function Tours() {
                   Мальдивских островов — захватывающие тропические пляжи и
                   кристально чистые воды Индийского океана.
                 </p>
+                <Button>
+                  <a href="https://payme.uz/fallback/merchant/?id=64d216bff9d1730016a3ac74">
+                    Бронировать
+                  </a>
+                </Button>
               </div>
             </Grid.Col>
           </Grid>
@@ -64,4 +85,3 @@ function Tours() {
 }
 
 export default Tours;
-
